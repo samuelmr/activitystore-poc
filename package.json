@@ -1,0 +1,25 @@
+{
+  "name": "as-store",
+  "version": "1.0.0",
+  "description": "Storage for activitystreams 2 events",
+  "main": "server.js",
+  "dependencies": {
+    "activitystrea.ms": "^0.7.2",
+    "body-parser": "^1.14.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.43"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --harmony server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "social",
+    "activitystreams"
+  ],
+  "author": "Samuel Rinnetmaki",
+  "license": "ISC"
+}
